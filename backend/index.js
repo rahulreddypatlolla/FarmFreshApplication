@@ -165,3 +165,5 @@ app.post("/create-checkout-session",async(req,res)=>{
 
 //server is ruuning
 app.listen(PORT, () => console.log("server is running at port : " + PORT));
+
+module.exports = app;
